@@ -4,8 +4,8 @@ import toast from "react-hot-toast"
 
 const SellerLogin = () => {
     const { isSeller, setIsSeller, navigate , axios} = useAppContext()
-    const [email, setEmail] = useState("")
-    const [password, setPassword] = useState("")
+    const [email, setEmail] = useState("admin@example.com")
+    const [password, setPassword] = useState("Shashi@123")
     
     const onSubmitHandler = async(event)=>{
        try {
